@@ -1,3 +1,4 @@
+## LAZYVIM
 ```
 return {
   "ryugenxd/gen.nvim",
