@@ -23,7 +23,7 @@ local function send_to_ai(prompt, file)
 ]], file.filename, file.content, prompt)
 
   local body = vim.fn.json_encode({
-    model = "codellama:7b",
+    model = "codegemma:2b",
     prompt = full_prompt,
     stream = false
   })
